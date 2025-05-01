@@ -1,0 +1,70 @@
+{
+  "gameId": "game_001",
+  "questions": [
+    {
+      "questionId": 1,
+      "questionType": "majority",
+      "xpDistributionType": 0,
+      "questionText": "What's the best Ethereum wallet?",
+      "personalOpinion": false,
+      "requiresDualResponse": false,
+      "answers": [
+        {
+          "player": "0xabc123...",
+          "answer": "Metamask",
+          "commitTime": 1714567890
+        },
+        {
+          "player": "0xdef456...",
+          "answer": "Rabby",
+          "commitTime": 1714567902
+        },
+        {
+          "player": "0xghi789...",
+          "answer": "Coinbase Wallet",
+          "commitTime": 1714567915
+        }
+      ],
+      "doubleDowns": [
+        {
+          "player": "0xabc123...",
+          "doubledDown": true
+        },
+        {
+          "player": "0xdef456...",
+          "doubledDown": false
+        },
+        {
+          "player": "0xghi789...",
+          "doubledDown": false
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "questionType": "trivia",
+      "xpDistributionType": "trivia",
+      "questionText": "Which protocol powers UMA's bridge?",
+      "personalOpinion": false,
+      "requiresDualResponse": false,
+      "correctAnswer": "Across",
+      "answers": [
+        {
+          "player": "0xabc123...",
+          "answer": "Across",
+          "commitTime": 1714567950
+        },
+        {
+          "player": "0xdef456...",
+          "answer": "Hop.exchange",
+          "commitTime": 1714567962
+        },
+        {
+          "player": "0xghi789...",
+          "answer": "Across",
+          "commitTime": 1714567975
+        }
+      ]
+    }
+  ]
+}
