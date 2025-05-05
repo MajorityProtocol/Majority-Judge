@@ -19,6 +19,17 @@ This guide helps UMA tokenholders **verify or dispute** Majority game resolution
 - `judge_manual_full_unabridged.txt` (full UMA judging rules)  
 - Internet connection for setup (offline use supported afterward)
 
+- To run the Python script, you’ll also need to install the `ollama` Python package:
+
+```bash
+# (Optional) Create a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install the Python package to interface with Ollama
+pip install ollama
+
+
 ---
 
 ## 📁 Recommended Folder Structure
