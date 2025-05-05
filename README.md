@@ -52,6 +52,14 @@ source ~/.zshrc
 
 python run_majority_judge.py
 
+### 7. View what the AI Judge returned
+cat uma_output.bytes
+
+or
+
+nano uma_output.bytes
+
+
 
 ---
 
