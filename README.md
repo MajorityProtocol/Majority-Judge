@@ -30,7 +30,16 @@ source .venv/bin/activate
 ### 3. Install the Python package to interface with Ollama
 pip install ollama
 
-### 4. Make sure Ollama is running
+### 4. Build the Majority Judge Model
+If you haven't already built the model:
+
+Create the model from your Modelfile
+Make sure you have a Modelfile in the repo root, then run:
+ollama create majority-judge -f Modelfile
+
+This builds your local majority-judge model for use with the Python script.
+
+### 5. Make sure Ollama is running
 You need the Ollama app (the local LLM server) to be active before calling it via Python. Open a new terminal tab or window and run:
 ollama run majority-judge
 
@@ -39,7 +48,7 @@ If you don’t see ollama as a recognized command, you may need to add it to you
 echo 'export PATH="$HOME/.ollama/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 
-### 5.  Once the model is running, go back to your original terminal and run:
+### 6.  Once the model is running, go back to your original terminal and run:
 
 python run_majority_judge.py
 
