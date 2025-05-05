@@ -21,7 +21,7 @@ This guide helps UMA tokenholders **verify or dispute** Majority game resolution
 
 - To run the Python script, you’ll also need to install the `ollama` Python package:
 
-```bash
+ ```bash
 # (Optional) Create a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
